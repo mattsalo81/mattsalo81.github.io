@@ -1,20 +1,91 @@
-<html>
-    <head>
-       <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
-       <link href="https://fonts.googleapis.com/css?family=Bree+Serif|Gloria+Hallelujah|Nanum+Gothic" rel="stylesheet">
-       
-        <h1>
-            stuffmattdid.today
-        </h1>
-    </head>
-    <body>
-       <div class="chunk" id="roundshit">
-            <p>
-                Under Construction
-            </p>
-            <img src="construction.gif" alt="I will never know the sting of a hard day's work with little pay" class="inline"/>
-           <p class="refined" id="roundershit">While you're waiting on that, go buy sum fuckin' <a href="http://etsy.com/shop/plannerbunnypress">stickers</a> aight? </p>
-        
-        </div>
-    </body>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Gooterveen</title>
+	<link rel="stylesheet" href="normalize.css">
+	<link rel="stylesheet" href="intensify.css">
+	<style>
+		html,
+		body {
+			height: 100%;
+			overflow: hidden;
+			cursor: url('./doing_business.jpg'), pointer !important;
+			user-select: none;
+		}
+
+		body {
+			background: url('./bg.gif');
+		}
+
+		div {
+			color: white;
+			font-family: Arial, Helvetica, sans-serif;
+			position: absolute;
+			right: -25px;
+			top: 9%;
+			font-size: 48px;
+			font-weight: bold;
+			position: relative;
+			z-index: 1;
+			-webkit-font-smoothing: antialiased;
+			-moz-osx-font-smoothing: grayscale;
+			overflow: hidden;
+		}
+
+		h1 {
+			font-family: Impact, sans-serif;
+			color: #24c0fd;
+			text-shadow: 0.13em -0.13em 0px #0000aa;
+			letter-spacing: -0.05em;
+			margin: 0 .6em;
+		}
+
+		h2 {
+			animation: blink 0.11s infinite;
+			font-size: 40px;
+
+		}
+
+		h2 span.a {
+			animation: blink 0.19s linear 0.051s infinite;
+		}
+		h2 span.b {
+			animation: blink 0.17s linear 0.054s infinite;
+		}
+		h2 span.c {
+			animation: blink 0.11s linear 0.061s infinite;
+		}
+		
+		@keyframes blink {
+				0% { color: white }
+				49% { color: transparent }
+				50% { color: transparent }
+				/* 99% { color:transparent } */
+				100% { color: white }
+		}
+
+		@media only screen and (min-width: 700px) {
+			div {
+				font-size: 134px;
+			}
+			h2 {
+				font-size: 120px;
+			}
+		}
+	</style>
+</head>
+
+<body>
+	<div>
+		<h1>Gooterveen</h1>
+		<div class="intensify">
+			<h2>OF<span class="a">F</span>IC<span class="b">IA</span>L WEBSI<span class="c">T</span>E</h2>
+		</div>
+	</div>
+</body>
+
 </html>
